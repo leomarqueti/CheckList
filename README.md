@@ -12,3 +12,6 @@ Este é um projeto simples, mas qualquer contribuição é bem-vinda. Se você q
 
 ## Licença
 Este projeto está disponível sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+## Acesso
+https://leomarqueti.github.io/CheckList/
