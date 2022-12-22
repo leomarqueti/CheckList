@@ -1,14 +1,14 @@
-Lista de Verificação de Veículos
-Este é um aplicativo simples que permite aos usuários criar um relatório de verificação de veículos. O usuário pode selecionar diferentes opções de status para cada item da lista de verificação, como "OK", "Usado" ou "Necessário Substituir", e o aplicativo gera um relatório baseado nas seleções do usuário. O relatório também pode ser impresso.
+# Lista de Verificação do Veículo
+Este é um aplicativo web que permite ao usuário verificar o estado de diversos componentes do seu veículo e gerar um relatório.
 
-Instalação
-Para usar este aplicativo, basta baixar os arquivos HTML, CSS e JavaScript e abrir o arquivo HTML em um navegador. Não é necessária nenhuma instalação adicional.
+## Instalação
+Para instalar o aplicativo, basta clonar este repositório para o seu computador e abrir o arquivo `index.html` em um navegador.
 
-Uso
-Para usar o aplicativo, basta selecionar as opções de status desejadas para cada item da lista de verificação e clicar no botão "Gerar Relatório". O relatório será gerado na tela. Para imprimir o relatório, basta clicar no botão "Imprimir Relatório".
+## Uso
+Para usar o aplicativo, basta preencher o formulário com as informações solicitadas e clicar em "Gerar Relatório". O relatório será exibido na tela e pode ser impresso clicando no botão "Imprimir Relatório".
 
-Contribuição
+## Contribuição
 Este é um projeto simples, mas qualquer contribuição é bem-vinda. Se você quiser adicionar ou modificar alguma coisa, basta criar uma branch e enviar um pull request.
 
-Licença
+## Licença
 Este projeto está disponível sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
