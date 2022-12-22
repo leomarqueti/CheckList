@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.25em;
+    background-color: #0088cc;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #006699;
+  }
+  
+  #report {
+    margin-top: 2em;
+    border: 1px solid #ccc;
+    border-radius: 0.25em;
+    padding: 1em;
+  }
+  
+  #report p {
+    margin: 0;
+  }
+  
+  #report .status {
+    font-weight: bold;
+  }
+  
+  #report .status.ok {
+    color: green;
+  }
+  
+  #report .status.warning {
+    color: orange;
+  }
+  
+  #report .status.error {
+    color: red;
+  }
+
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }

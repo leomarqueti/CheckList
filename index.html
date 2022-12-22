@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Lista de Verificação do Veículo</title>
+</head>
+<body class="dark-mode">
+  <h1>Lista de Verificação do Veículo</h1>
+  <form id="formulario-lista-verificacao">
+    <h2>Motor</h2>
+    <label for="nivel-oleo">Nível de óleo:</label>
+    <select id="nivel-oleo" name="nivel-oleo">
+      <option value="ok">OK</option>
+      <option value="baixo">Baixo</option>
+      <option value="vazio">Vazio</option>
+    </select>
+    <br>
+    <label for="nivel-agua-radiador">Nível de água no radiador:</label>
+    <select id="nivel-agua-radiador" name="nivel-agua-radiador">
+      <option value="ok">OK</option>
+      <option value="baixo">Baixo</option>
+      <option value="vazio">Vazio</option>
+    </select>
+    <br>
+    <h2>Freios</h2>
+    <label for="pastilhas-freio">Pastilhas de freio:</label>
+    <select id="pastilhas-freio" name="pastilhas-freio">
+    <option value="ok">OK</option>
+    <option value="usadas">Usadas</option>
+    <option value="necessario-substituir">Necessário Substituir</option>
+    </select>
+    <br>
+    <label for="nivel-fluido-freio">Nível de fluido de freio:</label>
+    <select id="nivel-fluido-freio" name="nivel-fluido-freio">
+    <option value="ok">OK</option>
+    <option value="baixo">Baixo</option>
+    <option value="vazio">Vazio</option>
+    </select>
+    <br>
+    <h2>Pneus</h2>
+    <label for="profundidade-sulco-pneu">Profundidade do sulco do pneu:</label>
+    <select id="profundidade-sulco-pneu" name="profundidade-sulco-pneu">
+    <option value="ok">OK</option>
+    <option value="baixo">Baixo</option>
+    <option value="necessario-substituir">Necessário Substituir</option>
+    </select>
+    <br>
+    <label for="pressao-pneu">Pressão dos pneus:</label>
+    <select id="pressao-pneu" name="pressao-pneu">
+    <option value="ok">OK</option>
+    <option value="baixa">Baixa</option>
+    <option value="alta">Alta</option>
+    </select>
+    <br>
+    <button type="submit">Gerar Relatório</button>
+
+    </form>
+    <div id="relatorio"></div>
+    <button id="botao-imprimir">Imprimir Relatório</button>
+    <button id="btn-dark-mode">Modo escuro</button>
+    <script src="script.js"></script>
+    </body>
+</html>
